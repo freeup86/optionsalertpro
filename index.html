@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional options trading alerts under $100/month. Real-time Discord notifications, proven VWAP strategy, 73% win rate.">
+    <title>Options Alert Pro - Professional Trading Alerts Under $100</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --success-color: #28a745;
+            --danger-color: #dc3545;
+            --warning-color: #ffc107;
+            --dark-color: #1e3c72;
+        }
+        
+        /* Custom Styles */
+        .gradient-header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 100px 0;
+        }
+        
+        .price-strike {
+            text-decoration: line-through;
+            opacity: 0.6;
+        }
+        
+        .price-card {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: none;
+            transform: translateY(0);
+            transition: all 0.3s ease;
+        }
+        
+        .price-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .benefit-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        .testimonial-card {
+            background: #f8f9fa;
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .urgency-bar {
+            background: var(--danger-color);
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+        
+        body {
+            padding-top: 48px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Urgency Banner -->
+    <div class="urgency-bar">
+        🔥 LIMITED TIME: First 50 Members Get $77/Month Forever - <span id="spotsLeft">50</span> Spots Remaining!
+    </div>
+
+    <!-- Header -->
+    <header class="gradient-header text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">Professional Options Alerts</h1>
+            <h2 class="display-4 text-warning mb-4">Under $100/Month</h2>
+            <p class="lead fs-3 mb-5">Why pay $200+ elsewhere? Get the same winning alerts for half the price.</p>
+            <div class="badge bg-danger fs-5 px-4 py-2">
+                Save $1,200/Year vs Competitors
+            </div>
+        </div>
+    </header>
+
+    <!-- Pricing Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card price-card">
+                        <div class="card-header bg-primary text-white text-center py-4">
+                            <h3 class="mb-0">Options Alert Pro</h3>
+                            <p class="mb-0 mt-2">Complete Trading System</p>
+                        </div>
+                        
+                        <div class="card-body p-5">
+                            <!-- Price Display -->
+                            <div class="text-center mb-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="text-muted price-strike fs-3">$197</span>
+                                    <span class="display-2 fw-bold mx-3">$97</span>
+                                    <span class="text-muted fs-5">/month</span>
+                                </div>
+                                <p class="text-success fw-bold fs-4">Save $1,200 per year!</p>
+                            </div>
+                            
+                            <!-- Features -->
+                            <h5 class="mb-4">Everything You Need to Win:</h5>
+                            <div class="row mb-4">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">✅ <strong>Real-Time Discord Alerts</strong></li>
+                                        <li class="mb-2">✅ <strong>Daily Morning Plans (7:20 AM)</strong></li>
+                                        <li class="mb-2">✅ <strong>VWAP Strategy Alerts</strong></li>
+                                        <li class="mb-2">✅ <strong>Complete Entry/Exit Plans</strong></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">✅ <strong>Educational Content</strong></li>
+                                        <li class="mb-2">✅ <strong>Active Trading Community</strong></li>
+                                        <li class="mb-2">✅ <strong>Mobile Notifications</strong></li>
+                                        <li class="mb-2">✅ <strong>7-Day Free Trial</strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <!-- CTA Buttons -->
+                            <div class="d-grid gap-3">
+                                <a href="https://buy.stripe.com/fZedRb7Wd0N14lY9MPe3e06" class="btn btn-success btn-lg py-3">
+                                    🚀 Get Early Bird Price - $77/Month Forever
+                                </a>
+                                <a href="https://buy.stripe.com/3cI7sNa4l9jx19M6ADe3e05" class="btn btn-primary btn-lg py-3">
+                                    Start 7-Day Free Trial - $97/Month
+                                </a>
+                            </div>
+                            
+                            <!-- Guarantee -->
+                            <div class="text-center mt-4">
+                                <p class="text-muted">
+                                    <strong>100% Satisfaction Guarantee</strong><br>
+                                    Cancel anytime. No questions asked.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Compare & Save</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Service</th>
+                                        <th class="text-end">Monthly Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Competitor A</td>
+                                        <td class="text-end">$297/month</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Competitor B</td>
+                                        <td class="text-end">$249/month</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Competitor C</td>
+                                        <td class="text-end">$199/month</td>
+                                    </tr>
+                                    <tr class="table-primary fw-bold">
+                                        <td>Options Alert Pro</td>
+                                        <td class="text-end">$97/month</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="text-center mt-3 mb-0 text-muted">
+                                Same quality alerts. Better education. Half the price.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Grid -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Traders Choose Us</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center">
+                        <div class="benefit-icon">📊</div>
+                        <h4>73% Win Rate</h4>
+                        <p>Proven track record over 500+ trades with full transparency</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center">
+                        <div class="benefit-icon">⚡</div>
+                        <h4>Instant Alerts</h4>
+                        <p>Average alert speed under 30 seconds via Discord</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center">
+                        <div class="benefit-icon">📚</div>
+                        <h4>Learn & Earn</h4>
+                        <p>Educational content helps you understand every trade</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center">
+                        <div class="benefit-icon">🏆</div>
+                        <h4>Daily Plans</h4>
+                        <p>Start each day with market analysis at 7:20 AM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">What Members Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p>"Paid for itself in the first week! The morning plans alone are worth the price."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="text-warning me-2">★★★★★</div>
+                            <small class="text-muted">- Sarah K.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p>"Finally, professional alerts at a price that makes sense. Already up 47% this month!"</p>
+                        <div class="d-flex align-items-center">
+                            <div class="text-warning me-2">★★★★★</div>
+                            <small class="text-muted">- Mike T.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p>"The Discord community is amazing. Worth it just for the education and support."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="text-warning me-2">★★★★★</div>
+                            <small class="text-muted">- Jennifer R.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Why is it so affordable compared to others?
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We believe professional trading alerts shouldn't be reserved for the wealthy. By keeping our overhead low and focusing on what matters (winning trades), we can offer premium service at a fair price.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    What's the difference between $77 and $97?
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Same exact service! The $77 early bird price is our way of thanking the first 50 members who believe in us. Once those spots are gone, everyone pays $97. Early bird members keep their $77 rate forever.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    How do I get started?
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Click either button above to start your 7-day free trial. You won't be charged for 7 days, and you can cancel anytime before then if it's not for you. After signup, you'll receive Discord access within minutes.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Do I need experience with options?
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Some basic knowledge helps, but we provide education along with alerts. Many members started as beginners and are now consistently profitable. Our alerts include everything you need: what to buy, when to buy, where to take profits, and where to cut losses.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-5 bg-primary text-white text-center">
+        <div class="container">
+            <h2 class="mb-4">Ready to Start Winning?</h2>
+            <p class="lead mb-4">Join hundreds of traders already profiting with Options Alert Pro</p>
+            <a href="https://buy.stripe.com/fZedRb7Wd0N14lY9MPe3e06" class="btn btn-warning btn-lg me-3">
+                Get $77/Month Early Bird Price
+            </a>
+            <a href="https://buy.stripe.com/3cI7sNa4l9jx19M6ADe3e05" class="btn btn-light btn-lg">
+                Start Free Trial at $97/Month
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center text-muted">
+        <div class="container">
+            <p>&copy; 2026 Options Alert Pro. All rights reserved.<br>
+            <small>Trading involves risk. Past performance does not guarantee future results.</small></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Update spots remaining (you can make this dynamic)
+        // document.getElementById('spotsLeft').textContent = '47';
+    </script>
+</body>
+</html>
